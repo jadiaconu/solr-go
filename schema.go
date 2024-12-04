@@ -44,7 +44,7 @@ type FieldType struct {
 	DistanceUnits             string    `json:"distanceUnits,omitempty"`
 	SubFieldSuffix            string    `json:"subFieldSuffix,omitempty"`
 	Dimension                 string    `json:"dimension,omitempty"`
-	VectorDimension		  string    `json:"vectorDimension,omitempty"`
+	VectorDimension		  int32    `json:"vectorDimension,omitempty"`
 	Analyzer                  *Analyzer `json:"analyzer,omitempty"`
 	IndexAnalyzer             *Analyzer `json:"indexAnalyzer,omitempty"`
 	QueryAnalyzer             *Analyzer `json:"queryAnalyzer,omitempty"`
